@@ -1,0 +1,50 @@
+.getting_closer_section {
+    width: 100%;
+    padding: 55px 0 40px;
+    margin-bottom: 20px;
+}
+
+
+.name_and_desc_section h1 {
+    text-align: center;
+    color: #2d373c;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 100;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    opacity: 0;
+    transform: translateY(-50%);
+    animation: slide-bottom 1s forwards;
+}
+@keyframes slide-bottom {
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.name_and_desc_section p {
+    text-align: center;
+    width: 70%;
+    color: #9ea6a4;
+    font-size: 18px;
+    margin: 16px 202.5px;
+    font-weight: 300;
+    opacity: 0;
+    animation: p 2s forwards;
+}
+@keyframes p {
+    to {
+        opacity: 1;
+    }
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+.img img {
+    width: 770px;
+    height: 367px;
+    margin-top: 50px;
+}

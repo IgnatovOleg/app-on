@@ -1,0 +1,96 @@
+.recent_posts_section {
+    width: 100%;
+    padding: 0 0 55px 0;
+    overflow: hidden;
+}
+
+
+
+
+
+
+/* Окно блога */
+
+.list_blogs {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 60px auto 30px;
+}
+
+.blog {
+    width: 270px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5f7f9;
+    overflow: hidden;
+}
+.authors_name {
+    padding: 15px 0 10px;
+}
+
+.authors_name a {
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #2d373c;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.authors_name a:hover{
+    color: #ff3131;
+}
+
+.blog span{
+    color: #76889a;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.button_blog {
+    border-radius: 6px;
+    border: 1px solid #76889a77;
+    padding: 15px auto 0;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    margin: 18px auto;
+}
+.button_blog a {
+    color: #76889a;
+    text-decoration: none;
+    padding: 7px 15px;
+    font-size: 14px;
+}
+
+
+
+
+/* Самая нижняя кнопка */
+
+.button_all_posts {
+    border-radius: 6px;
+    border: 1px solid #76889a77;
+    padding: 15px auto 0;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.button_all_posts a {
+    color: #76889ae5;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+.button_all_posts:hover {
+    background-color: #76889a;
+}
+.button_all_posts a:hover {
+    color: white;
+}

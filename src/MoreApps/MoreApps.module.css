@@ -1,0 +1,52 @@
+.more_apps_section {
+    width: 100%;
+    padding: 55px 0 40px;
+    margin-bottom: 20px;
+}
+.brands {
+    width: 1140px;
+    margin: 60px auto 10px;
+}
+.window_slider {
+    display: flex;
+    overflow: hidden;
+}
+.brands_map {
+    width: 1140px;
+    display: flex;
+    transition: 1s;
+}
+.img {
+    display: flex;
+    transition: 1s;
+    margin: 0 20px;
+}
+.image {
+    width: 150px;
+    color: #617181;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+.marker_box {
+    height: 30px;
+}
+
+.marker {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: #76889a;
+    margin: 0 7px;
+}
+.custom_marker {
+    position: relative;
+    top: -8px;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+    color: #76889a;
+
+}

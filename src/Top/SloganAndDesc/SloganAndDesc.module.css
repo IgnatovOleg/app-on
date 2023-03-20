@@ -1,0 +1,110 @@
+.top {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.slogan {
+    overflow: hidden;
+}
+.slogan h1 {
+    color: #ffffff;
+    width: 100%;
+    height: 58px;
+    font-size: 48px;
+    font-weight: 100;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+    overflow: hidden;
+    animation: slide-bottom 1s forwards;
+}
+
+
+
+
+.desc {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    margin: 25px auto 30px
+}
+
+.desc p {
+    width: 850px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin: 0 148px;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+.topButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonApple {
+    background-color: #ff3131;
+    width: 206.59px;
+    height: 57px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 34px;
+}
+
+.buttonApple span {
+    color: white;
+    font-size: 18px;
+    padding-right: 4px;
+}
+.buttonApple a {
+    text-decoration: none;
+}
+.appleIcon {
+    color: white;
+    width: 33px;
+    height: 35px;
+    margin-bottom: 2px;
+    margin-right: 7px;
+    margin-left: 1px;
+}
+
+
+
+.buttonAndroid {
+    background-color: #ff3131;
+    width: 225.59px;
+    height: 57px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonAndroid span {
+    color: white;
+    font-size: 18px;
+    padding-right: 4px;
+}
+.buttonAndroid a {
+    text-decoration: none;
+}
+.androidIcon {
+    color: white;
+    width: 33px;
+    height: 35px;
+    margin-top: 3px;
+    margin-right: 7px;
+    margin-left: 1px;
+}
+
+
+.buttonApple:hover {
+    background-color: #0f191e;
+}
+.buttonAndroid:hover {
+    background-color: #0f191e;
+}

@@ -1,0 +1,71 @@
+.contact_use_section {
+    width: 100%;
+    padding: 55px 0 0 0;
+    margin-bottom: 20px;
+}
+
+
+
+/* Инпуты ввода информации о пользователе */
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin:  70px auto;
+    overflow: hidden;
+}
+
+.input input {
+    width: 100%;
+    overflow: hidden;
+    height: 42px;
+    outline: none;
+    padding: 10px 15px;
+    margin: 0 auto 30px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #B2C4D6;
+}::placeholder {
+    color: #555555bb;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.input textarea {
+    width: 100%;
+    overflow: hidden;
+    height: 220px;
+    outline: none;
+    padding: 10px 15px;
+    margin: 0 auto 30px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #B2C4D6;
+    list-style-type: none;
+    resize: none;
+}::placeholder {
+    color: #555555bb;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+
+.btn_all_input {
+    width: 100%;
+    overflow: hidden;
+    height: 42px;
+    outline: none;
+    padding: 10px 15px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #B2C4D6;
+}
+.btn_all_input a {
+    text-decoration: none;
+    color: #76889a;
+    margin: auto;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}

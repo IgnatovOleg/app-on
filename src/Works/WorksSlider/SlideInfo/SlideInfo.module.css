@@ -1,0 +1,113 @@
+.infoSlide {
+    display: flex;
+    min-width: 1145px;
+}
+
+
+
+.title_and_desc {
+    width: 100%;
+    margin-top: -6px;
+}
+
+.title_and_desc h4 {
+    color: #2d373c;
+    font-size: 30px;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    line-height: 1.22;
+    margin-top: -2px;
+}
+.title_and_desc p {
+    color: #9ea6a4;
+    margin-top: 16px;
+    font-size: 18px;
+}
+.position_info_feature {
+    display: flex;
+    margin-top: 29px;
+    margin-right: 4px;
+}
+.blockIcon {
+    width: 73px;
+}
+
+.icon {
+    font-size: 28px;
+    color: #ff3131;
+    float: left;
+    margin-left: -1px;
+}
+
+.title_and_desc_feature {
+    margin-bottom: 5px;
+}
+
+.title_and_desc_feature h4 {
+    color: #2d373c;
+    font-size: 18px;
+    margin-top: 2px;
+
+}
+.title_and_desc_feature p {
+    margin-top: 11px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.btns{
+    display: flex;
+}
+
+.btnOurFeatures {
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #76889a;
+}
+.btn:hover {
+    color: white;
+    background-color: #23527c;
+}
+
+.btnOurFeatures a {
+    cursor:pointer;
+    display: flex;
+    color: #76889a;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+.btnOurFeatures p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.slide {
+    width: 50%;
+}
+.iconBtn {
+    margin: 3px 0;
+    font-weight: 300;
+}
+.imageSlide {
+    display: flex;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 5px;
+    height: 450px;
+}
+
+.slide_text {
+    width: 100%;
+}

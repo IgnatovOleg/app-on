@@ -1,0 +1,27 @@
+.arrows {
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    background-color: #c8cfd7;
+    align-items: center;
+}
+
+
+.blockArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #c8cfd7;
+    margin: 5px;
+}
+.iconArrowTop {
+    margin-left: 1px;
+    margin-top: 5px;
+    color: #c8cfd7;
+    font-size: 20px;
+    line-height: 30px;
+}

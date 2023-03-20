@@ -1,0 +1,110 @@
+.ready_section {
+    width: 85%;
+    height: 460px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.information {
+    width: 50%;
+}
+.name_and_desc_section {
+    overflow: hidden;
+}
+.name_and_desc_section h1 {
+    color: #2d373c;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 100;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.name_and_desc_section p {
+    margin: 15px 0;
+    color: #9ea6a4;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.image {
+    /* left: 120px; */
+    position: relative;
+    text-align: center;
+    width: max-content;
+    overflow: hidden;
+}
+.image img {
+    width: 100%;
+    max-width: 400px;
+    overflow-clip-margin: content-box;
+    vertical-align: middle;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.list p {
+    width: 50%;
+    display: block;
+    color: #76889a;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.icon_list {
+    margin: 0 5px;
+    font-size: 14px;
+
+}
+
+
+
+.btns{
+    display: flex;
+    
+}
+
+.btnOurFeatures {
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #76889a;
+}
+.btn:hover{
+    color: white;
+    background-color: #23527c;
+}
+
+.btnOurFeatures a {
+    cursor:pointer;
+    display: flex;
+    color: #76889a;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+.btnOurFeatures p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+.iconBtn {
+    margin: 3px  0;
+    font-weight: 300;
+}

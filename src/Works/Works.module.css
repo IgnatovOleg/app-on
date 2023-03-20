@@ -1,0 +1,9 @@
+.works_section {
+    width: 100%;
+    padding: 20px 0 20px;
+}
+
+.container_slider {
+    display: flex;
+    justify-content: center;
+}

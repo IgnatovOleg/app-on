@@ -1,0 +1,95 @@
+.container_info {
+    display: flex;
+    justify-content:space-between;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.leftBlock {
+    color: white;
+    width: 33%;
+    text-align: right;
+    margin-top: 140px;
+    margin-right: 0px;
+    overflow: hidden;
+}
+.leftBlock h4 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.leftBlock p {
+    margin-top: 14px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+
+.phoneImg img {
+    width: 360px;
+    margin-left: 1px;
+    margin-top: 515px;
+}
+
+
+
+.rightBlock {
+    color: white;
+    width: 33%;
+    text-align: left;
+    margin-top: 140px;
+    overflow: hidden;
+}
+
+.rightBlock h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.rightBlock p {
+    margin-top: 14px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.firstLeft {
+    display: flex;
+}
+.secondLeft {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+
+
+
+.content {
+    justify-content: flex-end;
+}
+
+.icon {
+    color: white;
+    width: 23px;
+    height: 23px;
+    margin: 1px 18px 0 19px;
+}
+
+
+
+
+.firstRight {
+    display: flex;
+}
+
+.secondRight {
+    display: flex;
+    margin-top: 50px;
+}

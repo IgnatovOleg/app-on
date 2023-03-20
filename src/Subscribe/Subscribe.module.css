@@ -1,0 +1,84 @@
+.subscribe_section {
+    width: 100%;
+    padding: 55px 0 0 0;
+}
+
+
+.name_and_desc_section h1 {
+    text-align: center;
+    color: #2d373c;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 100;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    opacity: 0;
+    transform: translateY(-50%);
+    animation: slide-bottom 1s forwards;
+}
+@keyframes slide-bottom {
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.name_and_desc_section p {
+    text-align: center;
+    width: 70%;
+    color: #9ea6a4;
+    font-size: 18px;
+    margin: 14px 202.5px;
+    font-weight: 300;
+    opacity: 0;
+    animation: p 1s forwards;
+}
+@keyframes p {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Инпут ввода емейла */
+.input {
+    margin: 70px auto 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    width: 100%;
+    width: 500px;
+    overflow: hidden; 
+    height: 52px;
+    outline: none;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid #B2C4D6;
+}::placeholder {
+    color: #555555bb;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* Кнопка Инпута Subscribe */
+
+.input button {
+    height: 52px;
+    width: 170px;
+    border-radius: 0 6px 6px 0;
+    border: 0;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 11px 16px;
+    margin-bottom: 30px;
+    background-color: #76889a;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.input p {
+    font-size: 17px;
+    color: white;
+
+}

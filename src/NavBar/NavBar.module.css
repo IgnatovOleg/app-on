@@ -1,0 +1,127 @@
+.nav_bar_section_active::-webkit-scrollbar {
+    width: 0;
+}
+.nav_bar_section_passive::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.nav_bar_section_active {
+    position: fixed;
+    width: 350px;
+    height: 100vh;
+    overflow:hidden;
+    overflow-y: scroll;
+    z-index: 10;
+    transition: 0.5s;
+    transform: translateX(0%);
+}
+.nav_bar_section_passive {
+    position: fixed;
+    width: 350px;
+    height: 100vh;
+    overflow:hidden;
+    overflow-y: scroll;
+    z-index: 10;
+    transition: 0.5s;
+    transform: translateX(-70%);
+}
+
+
+.navigation_container {
+    float: left;
+    background-color: #76889a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.navigation_container_active {
+    float: left;
+    background-color: #76889a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+/* Логотип */
+.navigation_container img {
+    margin: 50px 0 20px;
+}
+
+.navigation_container_active img {
+    margin: 50px 0 20px;
+}
+
+
+/* Список "адресов" куда производить скролл */
+
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.list li {
+    padding: 0 0 0 30px;
+    width: 100%;
+    font-weight: 400;
+    line-height: 60px;
+    list-style-type: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.list li:hover {
+    background-color: #3b434c;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.list hr {
+    margin: 20px 0 37px 30px;
+    width: 70%;
+}
+
+/* Контакты */
+
+.contacts {
+    height: 82px;
+}
+.contacts p {
+    padding: 0 0 0 30px;
+    color: white;
+}
+
+/* кнопка открытия навигационного меню */
+
+.icon_open_navbar {
+    position: relative;
+    background-color: #222222;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 20px;
+    left: 20px;
+}
+.icon_open_navbar:hover {
+    background-color: black;
+}
+
+.icon {
+    color: white;
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,117 @@
+.select_your_price_section {
+    width: 100%;
+    padding: 55px 0 0 0;
+}
+
+
+/* Размещение доссок цен */
+
+.prices_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+
+/* Доска */
+
+.price_board {
+    width: 100%;
+    max-width: 263px;
+    text-align: center;
+    margin: 0 auto 30px;
+    padding: 25px 0 30px;
+    background-color: #f5f7f9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.price_board h1 {
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2d373c;
+    margin: 18px 0 20px 0;
+}
+.price_board p {
+    color: #76889a;
+}
+
+.price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ff3131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 45px 0;
+}
+.price h1 {
+    font-size: 31px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: white;
+}
+.price_board li {
+    width: 100%;
+    list-style-type: none;
+    border-bottom: 1px solid #76889a52;
+    display: block;
+    color: #76889a;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.button_register {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #76889a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.button_register a {
+    text-decoration: none;
+    color: #76889a;
+    font-size: 18px;
+
+}
+
+/* Изменение доски при наведении курсора */
+
+.price_board:hover {
+    background-color: #ff3131;
+}
+.price_board:hover h1{
+    font-weight:700;
+    color: white;
+}
+.price_board:hover p {
+    color: white;
+}
+.price_board:hover li {
+    color: white;
+}
+.price_board:hover .price {
+    background-color: white;
+}
+.price_board:hover .price h1 {
+    font-weight: 700;
+    color: #ff3131;
+}
+.price_board:hover li {
+    color: white;
+}
+.price_board:hover .button_register {
+    border: 1px solid white;
+}
+.price_board:hover .button_register a {
+    color: white;
+}

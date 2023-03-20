@@ -1,0 +1,61 @@
+.slider_section {
+    width: 1140px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.positionSlider{
+    display: flex;
+}
+
+.sliderInfo {
+    display: flex;
+    position: relative;
+    transition: 0.5s;
+}
+
+.sliderInfoSecond {
+    width: 50%;
+    margin-right: -10px;
+}
+
+
+.imgSlide {
+    float: right;
+    width: 555px;
+    height: 434px;
+}
+
+.imageSlideSecond {
+    display: flex;
+    width: 50%;
+    margin-top: -2px;
+}
+.imageSlideSecond img {
+    float: right;
+    width: 555px;
+    height: 434px;
+}
+
+
+
+.navegation_box {
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.icon {
+    font-size: 28px;
+    color: #ff3131;
+    float: left;
+    margin-left: -1px;
+}
+.custom_marker {
+    position: relative;
+    top: -17.5px;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+    color: #76889a;
+
+}
